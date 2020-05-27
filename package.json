@@ -4,7 +4,9 @@
   "description": "This is a node practice to learn node and git",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/laurybenoit/Nodejsprac/issues"
   },
-  "homepage": "https://github.com/laurybenoit/Nodejsprac#readme"
+  "homepage": "https://github.com/laurybenoit/Nodejsprac#readme",
+  "dependencies": {
+    "3": "^2.1.0",
+    "-": "0.0.1",
+    "bootstrap": "^4.5.0",
+    "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
